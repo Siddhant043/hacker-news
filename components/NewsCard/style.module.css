@@ -1,0 +1,24 @@
+.main {
+  background: linear-gradient(
+    180deg,
+    rgba(98, 106, 136, 0.1) 0%,
+    rgba(46, 49, 73, 0.1) 107.43%
+  );
+  backdrop-filter: blur(50px);
+}
+
+.btn_outlined {
+  border: 1px solid #f75961;
+  color: #f75961;
+}
+.btn_outlined:hover {
+  border: 1px solid #f75961;
+  color: #f75961;
+}
+
+.btn_contained {
+  background-color: #f75961;
+}
+.btn_contained:hover {
+  background-color: #f75961;
+}

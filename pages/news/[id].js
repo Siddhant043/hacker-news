@@ -19,7 +19,6 @@ const NewsDetail = (initialProps) => {
   const { title, url, points, children } = initialProps.newsDetails;
 
   const [commentIdArr, setCommentIdArr] = useState([]);
-  console.log(children);
 
   const handleCommentClick = (id) => {
     if (commentIdArr.some((item) => item === id)) {
